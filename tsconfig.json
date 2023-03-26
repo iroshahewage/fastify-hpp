@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "declarationMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "dist",
+    "target": "ES2017",
+    "lib": ["ES2017", "ESNext.AsyncIterable"],
+    "module": "commonjs",
+    "removeComments": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "declaration": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "importHelpers": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,24 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Maximum line length is 80 characters
+[*.{ts,tsx,js,jsx,json,css,scss}]
+max_line_length = 80
+
+# 2 space indentation
+[*.{ts,tsx,js,jsx,json,css,scss}]
+indent_style = space
+indent_size = 2
+
+# Use single quotes
+[*.{ts,tsx,js,jsx,json,css,scss}]
+quote_type = single
+
+# Add a space before and after curly braces in object literals
+[*.{ts,tsx,js,jsx,json,css,scss}]
+bracket_spacing = true
